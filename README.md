@@ -25,30 +25,18 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] **Purpose:** A Streamlit number-guessing game — guess the secret number within a limited number of attempts, with higher/lower hints and a score.
+- [x] **Bugs found:** Higher/Lower hints were backwards; the secret turned into a string on some attempts, breaking comparisons; scoring was inconsistent (wrong "too high" guesses sometimes gained points); the attempt counter started at 1; and "New Game" stayed stuck after a win.
+- [x] **Fixes applied:** Refactored the logic into `logic_utils.py`, corrected the hint direction, made all wrong guesses cost the same with a clean win bonus, started attempts at 0, and reset full game state on "New Game".
 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters a guess of 50
+2. Game returns "Too Low"
+3. User enters a guess of 60 → "Too High"
+4. Score updates correctly after each guess
+5. Game ends after the correct guess
+6. New Game can be started
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
-
-## 🧪 Test Results
-
-```
-# Paste your pytest output here, e.g.:
-# pytest tests/
-# ========================= X passed in 0.XXs =========================
-```
-
-## 🚀 Stretch Features
-
-- [ ] [If you choose to complete Challenge 4, describe the Enhanced UI changes here — a screenshot is optional]
