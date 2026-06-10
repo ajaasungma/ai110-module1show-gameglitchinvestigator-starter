@@ -50,6 +50,8 @@ I verified my repairs by generating test cases for each bug fixed and running it
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+Reruns - Literally reruns the script from the very top to the very bottom
+Session State - There could be different states that do different actions depending what the current state is.
 ---
 
 ## 5. Looking ahead: your developer habits
@@ -58,3 +60,7 @@ I verified my repairs by generating test cases for each bug fixed and running it
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I definitely would reuse the prompting strategy from this project. It provided me with a clear structure for getting the right code and help.
+I wouldn't do anything differently, i believe. But always remembering to verify and test the code AI suggested
+This project changed the way i thought of AI generated code in a positive light, in terms of it being a tool to help check the disparities in the code.
