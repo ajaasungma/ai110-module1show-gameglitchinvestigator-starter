@@ -3,6 +3,10 @@
 Answer each question in 3 to 5 sentences. Be specific and honest about what actually happened while you worked. This is about your process, not trying to sound perfect.
 
 ## 1. What was broken when you started?
+The Start New Game button does not work after winning
+Before starting, an attempt had already been used(says 7)
+Wrong hints
+The scores system is confusing
 
 - What did the game look like the first time you ran it?
 - List at least two concrete bugs you noticed at the start  
@@ -14,9 +18,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
-| | | | |
+|2 | go higher| go lower |none |
+|50 |go lower |go higher | none|
+|70 |go lower |go higher | none|
 
 ---
 
