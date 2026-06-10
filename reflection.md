@@ -30,6 +30,10 @@ Document at least 3 bugs you found. Add rows as needed.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
+I used Claude code. I mostly received correct suggestions from the AI which i implemented after verifying.For example, the hints, it correctly assessed that the hints were swapped. i verified the result through tests and running the app.
+
+It did give me one misleading suggestion though regarding the scores system, which was entirely not incorrect since there was no clear structure to the scores system which was just so confusing.
+
 ---
 
 ## 3. Debugging and testing your fixes
@@ -39,6 +43,7 @@ Document at least 3 bugs you found. Add rows as needed.
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
+I verified my repairs by generating test cases for each bug fixed and running it. Also, i tested it by playing the game.
 ---
 
 ## 4. What did you learn about Streamlit and state?
